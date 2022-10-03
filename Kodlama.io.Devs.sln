@@ -17,17 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "corePac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Security", "corePackages\Core.Security\Core.Security.csproj", "{FAF8C347-304C-4373-B6C4-A2007BAB0A8D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.io.Devs", "Kodlama.io.Devs", "{4CB63676-7EA1-41A1-8659-123393396CD6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kodlama.io.Devs", "kodlama.io.Devs", "{4CB63676-7EA1-41A1-8659-123393396CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Kodlama.io.Devs\Application\Application.csproj", "{84391A4A-ACEA-4065-81D7-CDD89A03F64C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Kodlama.io.Devs\Application\Application.csproj", "{84391A4A-ACEA-4065-81D7-CDD89A03F64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Kodlama.io.Devs\Domain\Domain.csproj", "{A38C443F-BACF-4BB4-922A-D22DD99D233F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Kodlama.io.Devs\Domain\Domain.csproj", "{A38C443F-BACF-4BB4-922A-D22DD99D233F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Kodlama.io.Devs\Infrastructure\Infrastructure.csproj", "{49015176-88AE-4C64-93FE-C1CD16BF19AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Kodlama.io.Devs\Infrastructure\Infrastructure.csproj", "{49015176-88AE-4C64-93FE-C1CD16BF19AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Kodlama.io.Devs\Persistence\Persistence.csproj", "{1FB6B1C6-A8D5-408B-A006-A131767640CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Kodlama.io.Devs\Persistence\Persistence.csproj", "{1FB6B1C6-A8D5-408B-A006-A131767640CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "Kodlama.io.Devs\WebAPI\WebAPI.csproj", "{F9A924E1-FF53-4F39-ABFD-7D89EB2AE6CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "Kodlama.io.Devs\WebAPI\WebAPI.csproj", "{F9A924E1-FF53-4F39-ABFD-7D89EB2AE6CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
