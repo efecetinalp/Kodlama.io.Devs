@@ -10,5 +10,7 @@ namespace Core.CrossCuttingConcerns.Constants
     {
         public static string EntityNameExists = "Entity name is already exists. Cannot be duplicate!";
         public static string EntityNotExists = "Entity is not exists. Cannot be null when requested!";
+        public static string EmailExists = "Given email is already exists!";
+
     }
 }
