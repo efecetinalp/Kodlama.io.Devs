@@ -30,8 +30,8 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
-        [HttpGet("getbyid")]
-        public async Task<IActionResult> GetById([FromQuery] GetByIdProgrammingLanguageQuery getByIdProgrammingLanguageQuery)
+        [HttpGet("{Id}")]
+        public async Task<IActionResult> GetById([FromRoute] GetByIdProgrammingLanguageQuery getByIdProgrammingLanguageQuery)
         {
             ProgrammingLanguageGetByIdDto result = await Mediator.Send(getByIdProgrammingLanguageQuery);
             return Ok(result);
