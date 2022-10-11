@@ -1,5 +1,7 @@
 ﻿using Application.Features.Auths.Rules;
 using Application.Features.ProgrammingLanguages.Rules;
+using Application.Features.SocialMedias.Rules;
+using Application.Features.Technologies.Rules;
 using Application.Services.AuthService;
 using Core.Application.Pipelines.Validation;
 using FluentValidation;
@@ -23,9 +25,9 @@ namespace Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddScoped<ProgrammingLanguageBusinessRules>();
-            //services.AddScoped<TechnologyBusinessRules>();
+            services.AddScoped<TechnologyBusinessRules>();
             services.AddScoped<AuthBusinessRules>();
-
+            services.AddScoped<SocialMediaBusinessRules>();
 
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
             //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(AuthorizationBehavior<,>));

@@ -15,7 +15,6 @@ namespace Application.Features.ProgrammingLanguages.Commands.UpdateProgrammingLa
     public class UpdateProgrammingLanguageCommand : IRequest<UpdatedProgrammingLanguageDto>
     {
         public string Name { get; set; }
-        public string Description { get; set; }
 
         public class UpdateProgrammingLanguageCommandHandler : IRequestHandler<UpdateProgrammingLanguageCommand, UpdatedProgrammingLanguageDto>
         {

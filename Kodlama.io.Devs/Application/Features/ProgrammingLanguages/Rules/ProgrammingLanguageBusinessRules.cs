@@ -26,9 +26,9 @@ namespace Application.Features.ProgrammingLanguages.Rules
             if (result.Items.Any()) throw new BusinessException(name + " " + Messages.EntityNameExists);
         }
 
-        public async Task ProgrammingLanguageCanNotBeEmptyWhenRequested(ProgrammingLanguage programmingLanguageToDelete)
+        public async Task ProgrammingLanguageCanNotBeEmptyWhenRequested(ProgrammingLanguage programmingLanguage)
         {
-            if (programmingLanguageToDelete == null) throw new BusinessException(Messages.EntityNotExists);
+            if (programmingLanguage == null) throw new BusinessException(Messages.EntityNotExists);
         }
     }
 }
